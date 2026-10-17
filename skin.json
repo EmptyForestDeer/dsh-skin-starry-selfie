@@ -1,0 +1,29 @@
+{
+  "id": "starry-selfie",
+  "name": "星穹自拍",
+  "nameEn": "Starry Selfie",
+  "author": "local",
+  "tagline": "星穹铁道黄昏自拍 · 紫暮玻璃",
+  "taglineEn": "Honkai dusk selfie · violet glass",
+  "description": "把星穹铁道黄昏自拍壁纸铺成全局背景，配紫暮色玻璃面板、暖金强调与柔和遮罩；支持背景开关、遮罩深度与可见时段。",
+  "tags": [
+    "anime",
+    "honkai-star-rail",
+    "violet",
+    "dusk",
+    "glass"
+  ],
+  "accent": "#b7a6ff",
+  "bodyAttr": "data-dsh-starry-selfie",
+  "dshCompatibility": "0.2.0rc2",
+  "package": "dsh-skin-starry-selfie",
+  "wiring": {
+    "id": "ui-skin-starry-selfie",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.webp",
+    "dark": "preview/dark.webp"
+  },
+  "order": 3
+}

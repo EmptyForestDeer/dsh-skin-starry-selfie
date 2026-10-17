@@ -1,0 +1,8 @@
+# Keep the repository newline-stable across platforms: the skin is plain JS/JSON/YAML
+# consumed by Node on Windows and macOS alike, so normalise to LF in the repo.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary

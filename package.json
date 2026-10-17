@@ -1,0 +1,41 @@
+{
+  "name": "dsh-skin-starry-selfie",
+  "version": "0.1.0",
+  "private": true,
+  "description": "星穹自拍主题：把星穹铁道黄昏自拍壁纸铺满 DSH 全局背景，配紫暮玻璃面板与暖金强调色。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "ui-skin",
+    "honkai-star-rail",
+    "theme"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "files": [
+    "lib",
+    "assets",
+    "preview",
+    "skin.json",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT"
+}

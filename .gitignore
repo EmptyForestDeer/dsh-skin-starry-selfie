@@ -1,0 +1,15 @@
+# dependencies / tooling
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# local scratch
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
